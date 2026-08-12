@@ -5,6 +5,7 @@
 
 /* 1. Pulse Badge Styling */
 .mario-update {
+	background-color: #121216 !important;
 	border-radius: 30px;
 	padding: 8px 16px;
 	margin-bottom: 20px;
@@ -43,22 +44,22 @@
 
 @keyframes availability-glow {
 	0%, 100% {
-		background: rgba(255, 255, 255, 0.05);
+		background-color: #121216 !important;
 		border-color: rgba(255, 255, 255, 0.25);
 		color: #ffffff;
-		box-shadow: 0 4px 12px rgba(255, 255, 255, 0.02);
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 	}
 	33% {
-		background: rgba(46, 204, 113, 0.08);
+		background-color: #121216 !important;
 		border-color: rgba(46, 204, 113, 0.65);
 		color: #2ecc71;
-		box-shadow: 0 4px 15px rgba(46, 204, 113, 0.2);
+		box-shadow: 0 4px 15px rgba(46, 204, 113, 0.15);
 	}
 	66% {
-		background: rgba(241, 196, 15, 0.08);
+		background-color: #121216 !important;
 		border-color: rgba(241, 196, 15, 0.65);
 		color: #f1c40f;
-		box-shadow: 0 4px 15px rgba(241, 196, 15, 0.2);
+		box-shadow: 0 4px 15px rgba(241, 196, 15, 0.15);
 	}
 }
 

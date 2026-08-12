@@ -1,5 +1,8 @@
 // Portfolio interaction and language-switching controller
 $(document).ready(function() {
+  // Move language switcher to body root to prevent Skel transforms from hiding/shifting it
+  $('body').append($('#langSwitcher'));
+
   const supportedLanguages = ['es', 'en', 'de', 'pt', 'fr'];
   const defaultLang = 'en';
 
