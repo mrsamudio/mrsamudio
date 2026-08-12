@@ -396,9 +396,10 @@
 }
 
 .linkedin-brand-logo {
-	max-height: 28px;
-	width: auto;
-	display: block;
+	max-height: 24px !important;
+	width: auto !important;
+	max-width: 100px !important;
+	display: block !important;
 }
 
 .badge-profile-info {
@@ -409,11 +410,11 @@
 }
 
 .badge-avatar {
-	width: 56px;
-	height: 56px;
-	border-radius: 50%;
-	object-fit: cover;
-	border: 2px solid #0077b5;
+	width: 56px !important;
+	height: 56px !important;
+	border-radius: 50% !important;
+	object-fit: cover !important;
+	border: 2px solid #0077b5 !important;
 }
 
 .badge-profile-details {
