@@ -49,7 +49,7 @@ window.portfolioTranslations = {
     view_linkedin_profile: "Ver Perfil en LinkedIn",
     
     contact_title: "Contacto",
-    contact_desc: "Puede ver mis perfiles de LinkedIn, GitHub y StackOverflow desde los siguientes iconos:",
+    contact_desc: "Puede ver mis perfiles de LinkedIn, GitHub, StackOverflow y Google Developer desde los siguientes iconos:",
     contact_footer: "¡Conectemos o escríbeme directamente para discutir sobre arquitectura de software, modernización de plataformas o nuevas oportunidades!",
     contact_info_label: "Bogotá, Colombia"
   },
@@ -102,7 +102,7 @@ window.portfolioTranslations = {
     view_linkedin_profile: "View LinkedIn Profile",
     
     contact_title: "Contact",
-    contact_desc: "You can view my LinkedIn, GitHub, and StackOverflow profiles using the following icons:",
+    contact_desc: "You can view my LinkedIn, GitHub, StackOverflow, and Google Developer profiles using the following icons:",
     contact_footer: "Open to discussing software architecture, platform modernization, or senior engineering roles. Let's connect!",
     contact_info_label: "Bogotá, Colombia"
   },
@@ -155,7 +155,7 @@ window.portfolioTranslations = {
     view_linkedin_profile: "LinkedIn-Profil anzeigen",
     
     contact_title: "Contacto",
-    contact_desc: "Sie können meine Profile auf LinkedIn, GitHub und StackOverflow über die folgenden Symbole einsehen:",
+    contact_desc: "Sie können meine Profile auf LinkedIn, GitHub, StackOverflow und Google Developer über die folgenden Symbole einsehen:",
     contact_footer: "Vernetzen Sie sich gerne mit mir oder kontaktieren Sie mich bezüglich Softwarearchitektur und Anwendungsmodernisierung!",
     contact_info_label: "Bogotá, Kolumbien"
   },
@@ -208,7 +208,7 @@ window.portfolioTranslations = {
     view_linkedin_profile: "Ver Perfil no LinkedIn",
     
     contact_title: "Contato",
-    contact_desc: "Você pode ver meus perfis do LinkedIn, GitHub e StackOverflow a partir dos seguintes ícones:",
+    contact_desc: "Você pode ver meus perfis do LinkedIn, GitHub, StackOverflow e Google Developer a partir dos seguintes ícones:",
     contact_footer: "Aberto a conexões e oportunidades para discutir arquitetura de software e modernização de plataformas. Vamos nos conectar!",
     contact_info_label: "Bogotá, Colômbia"
   },
@@ -261,7 +261,7 @@ window.portfolioTranslations = {
     view_linkedin_profile: "Voir le profil LinkedIn",
     
     contact_title: "Contact",
-    contact_desc: "Vous pouvez consulter mes profils LinkedIn, GitHub et StackOverflow à partir des icônes suivantes :",
+    contact_desc: "Vous pouvez consulter mes profils LinkedIn, GitHub, StackOverflow et Google Developer à partir des icônes suivantes :",
     contact_footer: "N'hésitez pas à me contacter pour échanger sur l'architecture logicielle, la modernisation de plateformes ou de nouvelles opportunités !",
     contact_info_label: "Bogotá, Colombie"
   }
