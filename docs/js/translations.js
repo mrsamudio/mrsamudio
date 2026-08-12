@@ -33,7 +33,7 @@ window.portfolioTranslations = {
     tech_other_desc: "C++, Python, Spring MVC, Hibernate, Apache POI, Selenium WebDriver, PostgreSQL, SQL Server, Webservices, Patrones de Diseño, Git, SCRUM.",
     
     works_title: "Contribuciones y Proyectos Públicos",
-    works_intro: "Recopilación de mis contribuciones de código abierto a proyectos globales y arquitecturas públicas destacadas.",
+    works_intro: "Recopilación de mis contribuciones de código abierto y desarrollos. Mi actividad está distribuida entre mi cuenta personal <a href=\"https://github.com/mrsamudio\" target=\"_blank\">@mrsamudio</a> y mi cuenta corporativa/profesional <a href=\"https://github.com/msamudiovisbl\" target=\"_blank\">@msamudiovisbl</a> (enfocada en integraciones empresariales y proyectos globales).",
     proj_dolibarr_title: "Dolibarr ERP/CRM (Open Source)",
     proj_dolibarr_desc: "<strong>Contribución:</strong> Diseño e integración del Plan Único de Cuentas (PUC) de Colombia, garantizando el cumplimiento contable local para empresas. Este aporte fue destacado y cuenta con una recomendación formal en LinkedIn de <a href=\"https://www.linkedin.com/in/laurent-destailleur/\" target=\"_blank\">Laurent Destailleur</a>, creador y líder del proyecto.",
     proj_uperc_title: "UPERC (Sistema Universitario de Parqueaderos)",
@@ -44,6 +44,8 @@ window.portfolioTranslations = {
     proj_senacpp_desc: "<strong>Core:</strong> Ejercicios avanzados en C++ desarrollados para el curso del SENA (Nivel III). Como contribuidor a la comunidad de aprendizaje de <strong>CodeVault</strong>, este repositorio se enfoca en resolver algoritmos complejos de gestión de memoria, estructuras de datos avanzadas y paralelismo.",
     proj_apidoclinks_title: "apidoclinks (Java Utility)",
     proj_apidoclinks_desc: "<strong>Core:</strong> Utilidad en Java diseñada para agilizar el flujo de trabajo de desarrollo, obteniendo dinámicamente enlaces a la documentación oficial de la API de Java para cualquier clase específica introducida, facilitando búsquedas rápidas en entornos de desarrollo.",
+    proj_visbl_title: "Actividad Profesional (@msamudiovisbl)",
+    proj_visbl_desc: "<strong>Perfil Corporativo:</strong> Cuenta de desarrollo dedicada a integraciones globales y proyectos de arquitectura empresarial (Salesforce, Adobe Experience Manager, NICE). Reúne mi actividad profesional e implementaciones estructuradas bajo estándares corporativos.",
     
     contact_title: "Contacto",
     contact_desc: "Puede obtener una copia de mi curriculum en formato pdf, ver mis perfiles de LinkedIn y Github, enviarme un mensaje de correo electrónico o llamarme directamente a mi teléfono móvil:",
@@ -83,7 +85,7 @@ window.portfolioTranslations = {
     tech_other_desc: "C++, Python, Spring MVC, Hibernate, Apache POI, Selenium WebDriver, PostgreSQL, SQL Server, Webservices, Design Patterns, Git, SCRUM.",
     
     works_title: "Contributions & Public Projects",
-    works_intro: "A compilation of my open-source contributions to global projects and featured public architectures.",
+    works_intro: "A compilation of my open-source contributions and developments. My activity is distributed between my personal account <a href=\"https://github.com/mrsamudio\" target=\"_blank\">@mrsamudio</a> and my enterprise/professional account <a href=\"https://github.com/msamudiovisbl\" target=\"_blank\">@msamudiovisbl</a> (focused on corporate integrations and global projects).",
     proj_dolibarr_title: "Dolibarr ERP/CRM (Open Source)",
     proj_dolibarr_desc: "<strong>Contribution:</strong> Designed and integrated the official Colombia Chart of Accounts (PUC), ensuring local accounting compliance for businesses. This contribution was highlighted and holds a formal LinkedIn recommendation from <a href=\"https://www.linkedin.com/in/laurent-destailleur/\" target=\"_blank\">Laurent Destailleur</a>, creator and lead developer.",
     proj_uperc_title: "UPERC (University Parking Management System)",
@@ -94,6 +96,8 @@ window.portfolioTranslations = {
     proj_senacpp_desc: "<strong>Core:</strong> Advanced C++ programming exercises developed for the SENA course (Level III). As a contributor to the <strong>CodeVault</strong> learning community, this repository focuses on complex memory management, advanced data structures, and multithreading paradigms.",
     proj_apidoclinks_title: "apidoclinks (Java Utility)",
     proj_apidoclinks_desc: "<strong>Core:</strong> Java developer utility designed to streamline development workflow by dynamically retrieving direct links to the official Java API documentation for any specified class, facilitating quick reference lookups.",
+    proj_visbl_title: "Professional Activity (@msamudiovisbl)",
+    proj_visbl_desc: "<strong>Corporate Profile:</strong> Development account dedicated to global integrations and enterprise architecture projects (Salesforce, Adobe Experience Manager, NICE). Gathers my professional activity and structured implementations under corporate standards.",
     
     contact_title: "Contact",
     contact_desc: "You can obtain a copy of my resume in PDF format, view my LinkedIn and GitHub profiles, send me an email, or call me directly:",
@@ -130,10 +134,10 @@ window.portfolioTranslations = {
     tech_data: "Analytik & Daten",
     tech_cloud: "Cloud & DevOps",
     tech_other: "Weitere Fähigkeiten & Methoden",
-    tech_other_desc: "C++, Python, Spring MVC, Hibernate, Apache POI, Selenium WebDriver, PostgreSQL, SQL Server, Webservices, Design Patterns, Git, SCRUM.",
+    tech_other_desc: "C++, Python, Spring MVC, Hibernate, Apache POI, Selenium WebDriver, PostgreSQL, SQL Server, Webservices, Patrones de Diseño, Git, SCRUM.",
     
     works_title: "Beiträge & Öffentliche Projekte",
-    works_intro: "Eine Zusammenstellung meiner Open-Source-Beiträge zu globalen Projekten und ausgewählten öffentlichen Architekturen.",
+    works_intro: "Eine Zusammenstellung meiner Open-Source-Beiträge und Entwicklungen. Meine Aktivitäten verteilen sich auf mein persönliches Konto <a href=\"https://github.com/mrsamudio\" target=\"_blank\">@mrsamudio</a> und mein geschäftliches/professionelles Konto <a href=\"https://github.com/msamudiovisbl\" target=\"_blank\">@msamudiovisbl</a> (fokussiert auf Unternehmensintegrationen und globale Projekte).",
     proj_dolibarr_title: "Dolibarr ERP/CRM (Open Source)",
     proj_dolibarr_desc: "<strong>Beitrag:</strong> Entwurf und Integration des offiziellen kolumbianischen Kontenrahmens (PUC), um die Einhaltung lokaler Buchhaltungsstandards für Unternehmen zu gewährleisten. Dieser Beitrag wurde hervorgehoben und verfügt über eine formelle Empfehlung auf LinkedIn von <a href=\"https://www.linkedin.com/in/laurent-destailleur/\" target=\"_blank\">Laurent Destailleur</a>, dem Gründer und Projektleiter.",
     proj_uperc_title: "UPERC (Parkhaus-Management-System)",
@@ -144,6 +148,8 @@ window.portfolioTranslations = {
     proj_senacpp_desc: "<strong>Core:</strong> Fortgeschrittene C++-Übungen, entwickelt für den SENA-Kurs (Stufe III). Als Beitragender zur <strong>CodeVault</strong>-Lerngemeinschaft konzentriert sich dieses Repository auf komplexes Speichermanagement, fortgeschrittene Datenstrukturen und Multithreading-Paradigmen.",
     proj_apidoclinks_title: "apidoclinks (Java Utility)",
     proj_apidoclinks_desc: "<strong>Core:</strong> Ein Java-Entwicklerwerkzeug zur Optimierung des Workflows. Es ruft dynamisch direkte Links zur offiziellen Java-API-Dokumentation für jede angegebene Klasse ab und ermöglicht so schnelle Referenzsuchen.",
+    proj_visbl_title: "Professionelle Aktivität (@msamudiovisbl)",
+    proj_visbl_desc: "<strong>Unternehmensprofil:</strong> Entwicklungs-Konto für globale Integrationen und Enterprise-Architekturprojekte (Salesforce, Adobe Experience Manager, NICE). Bündelt meine professionelle Aktivität und strukturierte Implementierungen unter Unternehmensstandards.",
     
     contact_title: "Kontakt",
     contact_desc: "Sie können meinen Lebenslauf als PDF herunterladen, meine Profile auf LinkedIn und GitHub einsehen, mir eine E-Mail senden oder mich direkt anrufen:",
@@ -171,7 +177,7 @@ window.portfolioTranslations = {
     impact_2_desc: "Implementação de rastreamento semântico e Data Layers para decisões estratégicas baseadas em dados.",
     impact_3_title: "DevOps & CI/CD",
     impact_3_desc: "Automação de pipelines de integração e entrega contínua com GitHub Actions, reduzindo tempos em 40%.",
-    impact_4_title: "Sistemas Empresariais",
+    impact_4_title: "Sistemas Empresariales",
     impact_4_desc: "Desenvolvimento e manutenção de soluções em ecossistemas Salesforce, Adobe Experience e plataformas NICE.",
     
     tech_stack_title: "🛠 Stack Tecnológico",
@@ -183,7 +189,7 @@ window.portfolioTranslations = {
     tech_other_desc: "C++, Python, Spring MVC, Hibernate, Apache POI, Selenium WebDriver, PostgreSQL, SQL Server, Webservices, Patrones de Diseño, Git, SCRUM.",
     
     works_title: "Contribuições e Projetos Públicos",
-    works_intro: "Uma compilação das minhas contribuições de código aberto para projetos globais e arquiteturas públicas em destaque.",
+    works_intro: "Uma compilação das minhas contribuições de código aberto e desenvolvimentos. Minha atividade está distribuída entre minha conta pessoal <a href=\"https://github.com/mrsamudio\" target=\"_blank\">@mrsamudio</a> e minha conta corporativa/profissional <a href=\"https://github.com/msamudiovisbl\" target=\"_blank\">@msamudiovisbl</a> (focada em integrações corporativas e projetos globais).",
     proj_dolibarr_title: "Dolibarr ERP/CRM (Open Source)",
     proj_dolibarr_desc: "<strong>Contribuição:</strong> Projeto e integração do Plano Único de Contas (PUC) da Colômbia, garantindo conformidade contábil local para empresas. Esta contribuição foi destacada e possui recomendação formal no LinkedIn de <a href=\"https://www.linkedin.com/in/laurent-destailleur/\" target=\"_blank\">Laurent Destailleur</a>, criador e líder do projeto.",
     proj_uperc_title: "UPERC (Sistema Universitário de Estacionamentos)",
@@ -194,6 +200,8 @@ window.portfolioTranslations = {
     proj_senacpp_desc: "<strong>Core:</strong> Exercícios avançados de C++ desenvolvidos para o curso SENA (Nível III). Como colaborador da comunidade de aprendizagem <strong>CodeVault</strong>, este repositório foca na resolução de algoritmos complexos de gerenciamento de memória, estruturas de dados avançadas e paralelismo.",
     proj_apidoclinks_title: "apidoclinks (Java Utility)",
     proj_apidoclinks_desc: "<strong>Core:</strong> Utilitário em Java projetado para agilizar o fluxo de desenvolvimento, obtendo dinamicamente links para a documentação oficial da API Java para qualquer classe específica fornecida, facilitando consultas rápidas.",
+    proj_visbl_title: "Atividade Profissional (@msamudiovisbl)",
+    proj_visbl_desc: "<strong>Perfil Corporativo:</strong> Conta de desenvolvimento dedicada a integrações globais e projetos de arquitetura empresarial (Salesforce, Adobe Experience Manager, NICE). Reúne minha atividade profissional e implementações estruturadas sob padrões corporativos.",
     
     contact_title: "Contato",
     contact_desc: "Você pode obter uma cópia do meu currículo em formato PDF, ver meus perfis do LinkedIn e GitHub, enviar-me um e-mail ou ligar-me diretamente:",
@@ -233,7 +241,7 @@ window.portfolioTranslations = {
     tech_other_desc: "C++, Python, Spring MVC, Hibernate, Apache POI, Selenium WebDriver, PostgreSQL, SQL Server, Webservices, Patrones de Diseño, Git, SCRUM.",
     
     works_title: "Contributions & Projets Publics",
-    works_intro: "Une compilation de mes contributions open source à des projets mondiaux et d'architectures publiques phares.",
+    works_intro: "Une compilation de mes contributions open source et de mes développements. Mon activité est répartie entre mon compte personnel <a href=\"https://github.com/mrsamudio\" target=\"_blank\">@mrsamudio</a> et mon compte professionnel/entreprise <a href=\"https://github.com/msamudiovisbl\" target=\"_blank\">@msamudiovisbl</a> (axé sur les intégrations d'entreprise et les projets mondiaux).",
     proj_dolibarr_title: "Dolibarr ERP/CRM (Open Source)",
     proj_dolibarr_desc: "<strong>Contribution :</strong> Conception et intégration du plan comptable officiel de la Colombie (PUC), garantissant la conformité comptable des entreprises locales. Cette contribution a été saluée et bénéficie d'une recommandation LinkedIn de <a href=\"https://www.linkedin.com/in/laurent-destailleur/\" target=\"_blank\">Laurent Destailleur</a>, créateur et responsable du projet.",
     proj_uperc_title: "UPERC (Gestion de Parking Universitaire)",
@@ -244,6 +252,8 @@ window.portfolioTranslations = {
     proj_senacpp_desc: "<strong>Core :</strong> Exercices avancés en C++ développés pour le cours SENA (Niveau III). En tant que contributeur à la communauté <strong>CodeVault</strong>, ce dépôt se concentre sur la gestion mémoire complexe, les structures de données avancées et les paradigmes de multithreading.",
     proj_apidoclinks_title: "apidoclinks (Java Utility)",
     proj_apidoclinks_desc: "<strong>Core :</strong> Utilitaire Java conçu pour optimiser le flux de travail des développeurs en récupérant dynamiquement des liens directs vers la documentation officielle de l'API Java pour une classe donnée, facilitant ainsi les recherches rapides.",
+    proj_visbl_title: "Activité Professionnelle (@msamudiovisbl)",
+    proj_visbl_desc: "<strong>Profil Entreprise :</strong> Compte de développement dédié aux intégrations mondiales et aux projets d'architecture d'entreprise (Salesforce, Adobe Experience Manager, NICE). Regroupe mon activité professionnelle et mes implémentations structurées selon les standards de l'entreprise.",
     
     contact_title: "Contact",
     contact_desc: "Vous pouvez obtenir une copie de mon CV au format PDF, consulter mes profils LinkedIn et GitHub, m'envoyer un e-mail ou m'appeler directement :",
