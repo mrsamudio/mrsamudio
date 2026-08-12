@@ -26,6 +26,14 @@ $(document).ready(function() {
     e.stopPropagation();
     $('#langDropdown').toggleClass('show');
     $(this).toggleClass('active');
+
+    // GA4 Tracking for language dropdown toggle
+    if (typeof gtag === 'function') {
+      gtag('event', 'language_dropdown_toggle', {
+        action: $('#langDropdown').hasClass('show') ? 'open' : 'close',
+        current_language: currentLang
+      });
+    }
   });
 
   $('.lang-btn').on('click', function(e) {
@@ -33,6 +41,14 @@ $(document).ready(function() {
     e.stopPropagation();
     const targetLang = $(this).data('lang');
     if (supportedLanguages.includes(targetLang) && targetLang !== currentLang) {
+      // GA4 Tracking for language change
+      if (typeof gtag === 'function') {
+        gtag('event', 'change_language', {
+          from_language: currentLang,
+          to_language: targetLang,
+          event_label: `Language switched to ${targetLang}`
+        });
+      }
       setLanguage(targetLang);
     }
     $('#langDropdown').removeClass('show');
@@ -97,4 +113,80 @@ $(document).ready(function() {
       }
     }
   }
+
+  // --- GA4 Semantic Click & Interaction Tracking ---
+  $(document).on('click', 'a, button, .impact-card, .tech-badge', function() {
+    const $el = $(this);
+    const href = $el.attr('href') || '';
+    const id = $el.attr('id') || '';
+    const text = $el.text().trim();
+    const classes = $el.attr('class') || '';
+
+    // Skip language selector clicks as they are explicitly handled
+    if ($el.closest('#langSwitcher').length || $el.hasClass('lang-btn') || $el.attr('id') === 'langTrigger') {
+      return;
+    }
+
+    let interactionType = 'general_click';
+    let label = text || id || href || 'unknown';
+
+    // 1. Navigation Menu Clicks
+    if ($el.closest('#nav').length) {
+      interactionType = 'navigation';
+      label = `Nav: ${text}`;
+    }
+    // 2. Social / Contact Icons & Links
+    else if ($el.closest('.icons').length || href.startsWith('mailto:') || href.startsWith('tel:') || href.includes('g.dev') || href.includes('linkedin.com') || href.includes('github.com')) {
+      interactionType = 'contact';
+      if (href.startsWith('mailto:')) {
+        label = 'Contact: Email';
+      } else if (href.startsWith('tel:')) {
+        label = 'Contact: Phone';
+      } else if (href.includes('linkedin.com')) {
+        label = 'Social: LinkedIn';
+      } else if (href.includes('github.com')) {
+        label = 'Social: GitHub';
+      } else if (href.includes('stackoverflow.com')) {
+        label = 'Social: StackOverflow';
+      } else if (href.includes('g.dev')) {
+        label = 'Social: GoogleDev';
+      }
+    }
+    // 3. CV / PDF Downloads
+    else if (href.toLowerCase().includes('.pdf') || classes.includes('fa-file-pdf-o')) {
+      interactionType = 'download';
+      label = `Download: ${href.split('/').pop()}`;
+    }
+    // 4. Portfolio Projects / Contributions
+    else if ($el.closest('.features').length || $el.closest('#Contrib').length) {
+      interactionType = 'portfolio_project';
+      label = `Project: ${text || href}`;
+    }
+    // 5. Tech stack tags
+    else if ($el.hasClass('tech-badge')) {
+      interactionType = 'tech_badge';
+      label = `Tech Badge: ${text}`;
+    }
+    // 6. Impact cards
+    else if ($el.hasClass('impact-card')) {
+      interactionType = 'impact_card';
+      label = `Impact Card: ${$el.find('h4').text().trim()}`;
+    }
+    // 7. Outbound links
+    else if (href.startsWith('http') && !href.includes(window.location.hostname)) {
+      interactionType = 'external_link';
+      label = `Outbound: ${href}`;
+    }
+
+    if (typeof gtag === 'function') {
+      gtag('event', 'click_interaction', {
+        interaction_type: interactionType,
+        element_text: text,
+        element_href: href,
+        element_id: id,
+        element_classes: classes,
+        event_label: label
+      });
+    }
+  });
 });
