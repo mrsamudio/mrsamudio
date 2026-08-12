@@ -5,16 +5,16 @@
 
 /* 1. Pulse Badge Styling */
 .mario-update {
-	border-radius: 30px !important;
-	padding: 8px 16px !important;
+	border-radius: 30px;
+	padding: 8px 16px;
 	margin-bottom: 20px;
 	display: inline-flex;
 	align-items: center;
 	font-size: 0.82em;
-	font-weight: 700 !important;
+	font-weight: 700;
 	letter-spacing: 0.5px;
-	border: 1px solid rgba(255, 255, 255, 0.2) !important;
-	animation: availability-glow 8s infinite ease-in-out !important;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	animation: availability-glow 8s infinite ease-in-out;
 }
 
 .pulse-dot {
@@ -24,7 +24,7 @@
 	border-radius: 50%;
 	margin-right: 10px;
 	flex-shrink: 0;
-	animation: pulse 2s infinite, pulse-dot-color 8s infinite ease-in-out !important;
+	animation: pulse 2s infinite, pulse-dot-color 8s infinite ease-in-out;
 }
 
 @keyframes pulse {
@@ -43,36 +43,36 @@
 
 @keyframes availability-glow {
 	0%, 100% {
-		background: rgba(255, 255, 255, 0.05) !important;
-		border-color: rgba(255, 255, 255, 0.25) !important;
-		color: #ffffff !important;
-		box-shadow: 0 4px 12px rgba(255, 255, 255, 0.02) !important;
+		background: rgba(255, 255, 255, 0.05);
+		border-color: rgba(255, 255, 255, 0.25);
+		color: #ffffff;
+		box-shadow: 0 4px 12px rgba(255, 255, 255, 0.02);
 	}
 	33% {
-		background: rgba(46, 204, 113, 0.08) !important;
-		border-color: rgba(46, 204, 113, 0.65) !important;
-		color: #2ecc71 !important;
-		box-shadow: 0 4px 15px rgba(46, 204, 113, 0.2) !important;
+		background: rgba(46, 204, 113, 0.08);
+		border-color: rgba(46, 204, 113, 0.65);
+		color: #2ecc71;
+		box-shadow: 0 4px 15px rgba(46, 204, 113, 0.2);
 	}
 	66% {
-		background: rgba(241, 196, 15, 0.08) !important;
-		border-color: rgba(241, 196, 15, 0.65) !important;
-		color: #f1c40f !important;
-		box-shadow: 0 4px 15px rgba(241, 196, 15, 0.2) !important;
+		background: rgba(241, 196, 15, 0.08);
+		border-color: rgba(241, 196, 15, 0.65);
+		color: #f1c40f;
+		box-shadow: 0 4px 15px rgba(241, 196, 15, 0.2);
 	}
 }
 
 @keyframes pulse-dot-color {
 	0%, 100% {
-		background-color: #ffffff !important;
+		background-color: #ffffff;
 		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.5);
 	}
 	33% {
-		background-color: #2ecc71 !important;
+		background-color: #2ecc71;
 		box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.6);
 	}
 	66% {
-		background-color: #f1c40f !important;
+		background-color: #f1c40f;
 		box-shadow: 0 0 0 0 rgba(241, 196, 15, 0.6);
 	}
 }
@@ -553,19 +553,4 @@
 		justify-content: center;
 		margin-top: 10px;
 	}
-}
-
-/* 9. Animated Classic Blue Link Highlights */
-#main p a, #main article a:not(.image):not(.badge-btn) {
-	color: #0066cc !important;
-	font-weight: 600;
-	text-decoration: none;
-	border-bottom: 1px dashed rgba(0, 102, 204, 0.4);
-	transition: all 0.25s ease-in-out;
-}
-
-#main p a:hover, #main article a:not(.image):not(.badge-btn):hover {
-	color: #004499 !important;
-	border-bottom: 1px solid #004499;
-	text-shadow: 0 0 1px rgba(0, 102, 204, 0.1);
 }
