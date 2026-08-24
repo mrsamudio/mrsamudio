@@ -3,6 +3,15 @@
 
 A passionate Systems Engineer and researcher dedicated to identifying complex engineering problems and designing efficient, creative, and proactive solutions. Focused on high technical standards, continuous innovation, and modernizing application architectures.
 
+<p align="center">
+  <a href="https://mrsamudio-portfolio.pages.dev">
+    <img src="https://img.shields.io/badge/🌐%20Interactive%20Portfolio-Visit%20Website-00bcd4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Interactive Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/mrsamudio/?locale=en">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
 ---
 
 ### 🛠️ Tech Stack & Expertise
@@ -22,10 +31,9 @@ A passionate Systems Engineer and researcher dedicated to identifying complex en
 
 ---
 
-### 📫 Connect with me & Full Resume
+### 📫 Connect with me & Interactive Portfolio
 
-For my complete professional background, detailed job history, and full experience, feel free to check out my LinkedIn or reach out directly:
-
+*   🌐 **Interactive Web Portfolio:** [mrsamudio-portfolio.pages.dev](https://mrsamudio-portfolio.pages.dev)
 *   💼 **Full Professional Background:** [View my LinkedIn Profile](https://www.linkedin.com/in/mrsamudio/?locale=en)
 
 <p align="center">
