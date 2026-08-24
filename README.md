@@ -12,6 +12,11 @@ A passionate Systems Engineer and researcher dedicated to identifying complex en
   </a>
 </p>
 
+<!-- 🏆 GitHub Profile Trophies -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mrsamudio&theme=radical&no-frame=true&margin-w=4" alt="Mario's GitHub Trophies" />
+</p>
+
 ---
 
 ### 🛠️ Tech Stack & Expertise
@@ -36,7 +41,20 @@ A passionate Systems Engineer and researcher dedicated to identifying complex en
 *   🌐 **Interactive Web Portfolio:** [mrsamudio-portfolio.pages.dev](https://mrsamudio-portfolio.pages.dev)
 *   💼 **Full Professional Background:** [View my LinkedIn Profile](https://www.linkedin.com/in/mrsamudio/?locale=en)
 
+---
+
+### 📊 Contribution & Activity Analytics
+
 <p align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=mrsamudio&show_icons=true&theme=radical" alt="Mario's GitHub Stats" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=mrsamudio&layout=compact&theme=radical" alt="Top Langs" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mrsamudio&show_icons=true&theme=radical&include_all_commits=true&count_private=true&cache_seconds=1800" alt="Mario's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrsamudio&layout=compact&theme=radical&cache_seconds=1800" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mrsamudio&theme=radical&cache_seconds=1800" alt="Mario's Contribution Streak" />
+</p>
+
+<!-- 📈 Annual Activity Graph -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mrsamudio&theme=react-dark&bg_color=141321&color=00bcd4&line=00bcd4&point=ffffff" alt="Mario's Activity Graph" width="100%" />
 </p>
