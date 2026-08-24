@@ -12,11 +12,6 @@ A passionate Systems Engineer and researcher dedicated to identifying complex en
   </a>
 </p>
 
-<!-- 🏆 GitHub Profile Trophies -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mrsamudio&theme=radical&no-frame=true&margin-w=4" alt="Mario's GitHub Trophies" />
-</p>
-
 ---
 
 ### 🛠️ Tech Stack & Expertise
