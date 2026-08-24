@@ -14,42 +14,24 @@ A passionate Systems Engineer and researcher dedicated to identifying complex en
 
 ---
 
-### 🛠️ Tech Stack & Expertise
+### 🛠️ Tech Stack & Core Competencies
 
-*   **Languages & Frameworks:** `PHP 8.x` `JavaScript (ES6+)` `Node.js 20` `Java` `Spring MVC` `Tailwind CSS`
-*   **Architecture & E-commerce:** `Stripe API` `RESTful APIs` `Enterprise Architecture` `Microservices`
+*   **Languages & Backend:** `PHP 8.x` `JavaScript (ES6+)` `Node.js 20` `Java` `Spring MVC`
+*   **Architecture & APIs:** `Enterprise Architecture` `Microservices` `Stripe API` `RESTful APIs`
 *   **Analytics Engineering:** `GA4 Ecommerce` `Google Tag Manager (GTM Data Layers)` `Semantic Tracking` `CRO`
-*   **DevOps & Infrastructure:** `GitHub Actions` `Docker` `AWS (CodeCommit)` `MySQL` `PowerShell`
+*   **DevOps & Cloud:** `GitHub Actions` `Docker` `AWS (CodeCommit)` `MySQL` `PowerShell`
 
 ---
 
-### ⚡ What I Do Best
+### ⚡ What I Deliver
 
-*   **Backend Refactoring & Modernization:** Migrating legacy code to modern architectures (PHP 8.x, Java) and optimizing infrastructure resource consumption.
-*   **Advanced Tracking Pipelines:** Designing custom semantic tracking engines and complex data layer integrations to drive conversion rate optimization (CRO).
-*   **CI/CD Automation:** Building robust GitHub Actions workflows with branch protection and selective test execution to slash deployment times.
+*   🚀 **Backend Modernization:** Migrating legacy codebases to modern architectures (PHP 8.x, Java) and optimizing server resource consumption.
+*   📊 **Advanced Tracking Pipelines:** Designing custom semantic tracking engines and resilient data layer integrations to drive conversion rate optimization (CRO).
+*   🔄 **CI/CD & Automation:** Engineering robust GitHub Actions pipelines with branch protections and automated workflows to accelerate delivery cycles.
 
 ---
 
-### 📫 Connect with me & Interactive Portfolio
+### 📫 Connect & Explore
 
 *   🌐 **Interactive Web Portfolio:** [mrsamudio-portfolio.pages.dev](https://mrsamudio-portfolio.pages.dev)
-*   💼 **Full Professional Background:** [View my LinkedIn Profile](https://www.linkedin.com/in/mrsamudio/?locale=en)
-
----
-
-### 📊 Contribution & Activity Analytics
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=mrsamudio&theme=radical" alt="Mario's Contribution Streak" />
-</p>
-
-<!-- 📈 Annual Activity Graph -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mrsamudio&theme=react-dark&bg_color=141321&color=00bcd4&line=00bcd4&point=ffffff" alt="Mario's Activity Graph" width="100%" />
-</p>
-
-<!-- 🤖 GitHub Metrics (Generated dynamically via GitHub Actions) -->
-<p align="center">
-  <img src="github-metrics.svg" alt="Mario's Automated GitHub Metrics" width="100%" />
-</p>
+*   💼 **Professional Career & Job History:** [View LinkedIn Profile](https://www.linkedin.com/in/mrsamudio/?locale=en)
